@@ -46,7 +46,7 @@ const ProjectCard = ({data}) => {
                                         </Avatar.Group>
                                         {/* <!-- end avatar group --> */}
                                         <div  className="">
-                                            <span  className={`${data.bgColor} ${data.textColor} inline-block text-center font-semibold text-sm align-baseline leading-none rounded bg-red-100 p-2 team-status`}>{data?.status}</span>
+                                            <span  className={`${data.bgColor} ${data.textColor} inline-block text-center font-semibold text-sm align-baseline leading-none rounded p-2 team-status`}>{data?.status}</span>
                                         </div>
                                     </div>
                                 </div>
